@@ -12,6 +12,11 @@ enum CustomColorCodes {
     case primary
     case success
     case failure
+    case bgColor
+    case titleText
+    case textFieldBG
+    case activeButtonBG
+    case inActiveButtonBG
 }
 
 extension CustomColorCodes {
@@ -23,6 +28,16 @@ extension CustomColorCodes {
             return Color(red: 0, green: 0, blue: 0)
         case .failure:
             return Color(red: 219/255, green: 12/255, blue: 12/255)
+        case .bgColor:
+            return Color(uiColor: .init(named: "BGColor") ?? .green)
+        case .titleText:
+            return Color(uiColor: .init(named: "TitleTextColor") ?? .white)
+        case .textFieldBG:
+            return Color(uiColor: .init(named: "TextFieldBG") ?? .black)
+        case .activeButtonBG:
+            return Color(uiColor: .init(named: "ActiveButtonBG") ?? .black)
+        case .inActiveButtonBG:
+            return Color(uiColor: .init(named: "InActiveButtonBG") ?? .black)
         }
     }
 }

@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5589293F2BBE847200DE6957 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5589293E2BBE847200DE6957 /* SignupViewModel.swift */; };
+		558929432BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558929422BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift */; };
 		55F136922BBE72620079B5BC /* GroceryShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F136912BBE72620079B5BC /* GroceryShopperApp.swift */; };
 		55F136942BBE72620079B5BC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F136932BBE72620079B5BC /* SignupView.swift */; };
 		55F136962BBE72660079B5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F136952BBE72660079B5BC /* Assets.xcassets */; };
 		55F136992BBE72660079B5BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F136982BBE72660079B5BC /* Preview Assets.xcassets */; };
 		55F136A12BBE73080079B5BC /* CustomColorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F136A02BBE73080079B5BC /* CustomColorCodes.swift */; };
+		55F136A42BBE76560079B5BC /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F136A32BBE76560079B5BC /* CustomFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5589293E2BBE847200DE6957 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		558929422BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldWithInlineError.swift; sourceTree = "<group>"; };
 		55F1368E2BBE72610079B5BC /* GroceryShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F136912BBE72620079B5BC /* GroceryShopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryShopperApp.swift; sourceTree = "<group>"; };
 		55F136932BBE72620079B5BC /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		55F136952BBE72660079B5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F136982BBE72660079B5BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55F136A02BBE73080079B5BC /* CustomColorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorCodes.swift; sourceTree = "<group>"; };
+		55F136A32BBE76560079B5BC /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5589293D2BBE844F00DE6957 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5589293E2BBE847200DE6957 /* SignupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		558929402BBE87C100DE6957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558929412BBE87CB00DE6957 /* CustomControls */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		558929412BBE87CB00DE6957 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				558929422BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
 		55F136852BBE72610079B5BC = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +83,8 @@
 		55F136902BBE72610079B5BC /* GroceryShopper */ = {
 			isa = PBXGroup;
 			children = (
+				558929402BBE87C100DE6957 /* Views */,
+				5589293D2BBE844F00DE6957 /* ViewModel */,
 				55F136A22BBE744C0079B5BC /* Extensions */,
 				55F1369F2BBE72A60079B5BC /* Model */,
 				55F136912BBE72620079B5BC /* GroceryShopperApp.swift */,
@@ -82,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				55F136A02BBE73080079B5BC /* CustomColorCodes.swift */,
+				55F136A32BBE76560079B5BC /* CustomFonts.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -157,7 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F136A12BBE73080079B5BC /* CustomColorCodes.swift in Sources */,
+				5589293F2BBE847200DE6957 /* SignupViewModel.swift in Sources */,
+				55F136A42BBE76560079B5BC /* CustomFonts.swift in Sources */,
 				55F136942BBE72620079B5BC /* SignupView.swift in Sources */,
+				558929432BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift in Sources */,
 				55F136922BBE72620079B5BC /* GroceryShopperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
