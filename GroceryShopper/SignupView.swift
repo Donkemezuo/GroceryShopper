@@ -37,19 +37,16 @@ struct SignupView: View {
                         errorMessage: $viewModel.passwordErrorMessage,
                         usecase: .password)
                     
-                    HStack {
-                        Button("Sign up") {
-                            print("Sign up button pressed")
-                        }
-                        .buttonStyle(BorderlessButtonStyle())
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(viewModel.shouldEnableSignupButton ? CustomColorCodes.activeButtonBG.color : CustomColorCodes.inActiveButtonBG.color)
-                        .foregroundStyle(.white)
-                        .cornerRadius(5)
-                        .accessibilityLabel("Sign up button")
+                    Button("Sign up") {
+                        print("Sign up button pressed")
                     }
-                    .clipShape(RoundedRectangle(cornerRadius: 0))
+                    .buttonStyle(BorderlessButtonStyle())
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(viewModel.shouldEnableSignupButton ? CustomColorCodes.activeButtonBG.color : CustomColorCodes.inActiveButtonBG.color)
+                    .foregroundStyle(.white)
+                    .cornerRadius(.infinity)
+                    .accessibilityLabel("Sign up button")
                     
                 }.padding(.horizontal, 20)
             }
