@@ -11,7 +11,7 @@ import SwiftUI
 struct GroceryShopperApp: App {
     var body: some Scene {
         WindowGroup {
-            SignupView()
+            SignupView(viewModel: SignupViewModel())
         }
     }
 }

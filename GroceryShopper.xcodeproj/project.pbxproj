@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55196F252BCCFC3B0097E2CF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55196F242BCCFC3B0097E2CF /* String+Extensions.swift */; };
 		5589293F2BBE847200DE6957 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5589293E2BBE847200DE6957 /* SignupViewModel.swift */; };
 		558929432BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558929422BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift */; };
 		55F136922BBE72620079B5BC /* GroceryShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F136912BBE72620079B5BC /* GroceryShopperApp.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55196F242BCCFC3B0097E2CF /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		5589293E2BBE847200DE6957 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		558929422BBE87DF00DE6957 /* InputTextFieldWithInlineError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldWithInlineError.swift; sourceTree = "<group>"; };
 		55F1368E2BBE72610079B5BC /* GroceryShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 			children = (
 				55F136A02BBE73080079B5BC /* CustomColorCodes.swift */,
 				55F136A32BBE76560079B5BC /* CustomFonts.swift */,
+				55196F242BCCFC3B0097E2CF /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F136A12BBE73080079B5BC /* CustomColorCodes.swift in Sources */,
+				55196F252BCCFC3B0097E2CF /* String+Extensions.swift in Sources */,
 				5589293F2BBE847200DE6957 /* SignupViewModel.swift in Sources */,
 				55F136A42BBE76560079B5BC /* CustomFonts.swift in Sources */,
 				55F136942BBE72620079B5BC /* SignupView.swift in Sources */,

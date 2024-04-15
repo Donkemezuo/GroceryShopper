@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct SignupView: View {
-    @ObservedObject var viewModel = SignupViewModel()
+    @ObservedObject var viewModel: SignupViewModel
     
+    init(viewModel: SignupViewModel) {
+        self.viewModel = viewModel
+    }
     var body: some View {
         ZStack {
             CustomColorCodes.bgColor.color
@@ -58,5 +61,5 @@ struct SignupView: View {
 
 
 #Preview {
-    SignupView()
+    SignupView(viewModel: SignupViewModel())
 }
